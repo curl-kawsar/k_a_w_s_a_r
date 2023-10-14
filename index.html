@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/edd0240440.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="about1.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <!--header-->
+            <div class="header-text">
+                <p>Web Development</p>
+                <h1>Hi, I'm a <span> Beginner Programmer</span><br> From BANGLADESH</h1>
+
+                <div class="social-icons">
+                    <a href="https://github.com/curl-kawsar"><i class="fab fa-github"></i></a>
+                    <a href="https://facebook.com/python.kawsar"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/curl-kawsar"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--About-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="about1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About <span>Me</span></h1>
+                    <h3>Hello, I'm Here to help your next Project! <br><br></h3>
+                    <p>
+                        Hey! I'm Kawsar Ahmed.  Currently I Am Studying in Computer Science and Engineering.
+                        Creative problem-solver with a passion for technology and design. Adaptable, detail-oriented, and committed to excellence.
+                        Eager to contribute expertise to innovative projects.
+                    </p>
+                     
+                     <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                     </div>
+
+                     <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>Computer Science and Engineering (CSE)</li>
+                            <li><span>2019-2021</span><br>Higher Secondary School Certificate (HSC)</li>
+                            <li><span>2017-2019</span><br>Secondary School Certificate (SSC)</li>
+                            <li><span>2016</span><br>Junior School Certificate (JSC) </li>
+
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>I'm beginner at HTML, CSS, JavaScript, TailwindCSS, Django etc</li>
+                            <li><span>Software Developer</span><br>I used to build a software Python Programming Language.</li>
+                            <li><span>Graphics Designing</span><br>I am Also quite good in Graphcis Designing</li>
+                        </ul>
+                     </div>  <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Web Development</span><br>3 Year Experience as a Web Developer</li>
+                            <li><span>Software Development</span><br>1 Year Experience as a Software Developer</li>
+                            <li><span>Graphics Designing</span><br>4 Year Experience as a Graphics Designer</li>
+                        </ul>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--services section-->
+    <div class="services">
+        <div class="container">
+            <h1 class="sub-title">My <span>Services</span></h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developing</h2>
+                    <p>Experienced web developer proficient in front-end and back-end technologies. Skilled in creating responsive, user-friendly websites and web applications. Strong understanding of modern web development tools and best practices. Adept at collaborating with clients and cross-functional teams to drive project success. Passionate about staying updated with the latest industry trends and technologies. Strong problem-solving skills and a commitment to creating high-quality digital experiences.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-codepen"></i>
+                    <h2>Software Development</h2>
+                    <p>Detail-oriented and innovative software developer with a passion for crafting efficient, scalable, and maintainable code. Proficient in multiple programming languages and technologies, I specialize in creating high-quality software solutions. Skilled in problem-solving and collaborating in cross-functional teams to deliver projects on time and within budget. Committed to staying updated with the latest industry trends and continuously enhancing technical skills. Dedicated to creating robust applications that drive seamless user experiences and business growth.</p>
+                    <a href="#">Learn More</a>
+                </div> 
+                 <div>
+                    <i class="fa-solid fa-code-compare"></i>
+                    <h2>Graphics Designing</h2>
+                    <p>Creative and versatile graphic designer with a keen eye for detail and a passion for translating concepts into visually appealing designs. Proficient in using industry-standard software and tools, I specialize in creating captivating graphics, layouts, and illustrations. Experienced in collaborating with clients to understand their vision and deliver designs that resonate with their target audience. Skilled in balancing creativity with strategic thinking to produce impactful visual solutions. Dedicated to staying updated with design trends and technologies to bring fresh ideas to every project.
+                        Feel free to personalize this description based on your unique skills and experiences as a graphic designer.
+                        </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---Portfolio Design-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Latest <span>Project</span></h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="ecommerce app.jpg">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you the talented people around the world. Download it from play store</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                
+                <div class="work">
+                    <img src="socialmedia.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you the talented people around the world. Download it from play store</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+
+                <div class="work">
+                    <img src="musicapp.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you the talented people around the world. Download it from play store</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+
+    <!--contact-->
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"> Contact<span> Us</span></h1>
+                    <p><i class="fa-solid fa-share"></i>knownaskawsar@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i></i>+8801969078519</p>
+
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="will up" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Kawsar Ahmed 2023 | All Right Reserved</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemeu = document.getElementById('sidemenu');
+        function openmenu(){
+            sidemeu.style.right ="0";
+        }
+        function closemenu(){
+            sidemeu.style.right ="-200px";
+        }
+    </script>
+
+</body>
+</html>
